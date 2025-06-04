@@ -166,6 +166,27 @@ blend_down_time                  = 100                             ;(сек)
         sun_shader                       = effects\sun
         sun_texture                      = fx\fx_sun_half.tga
 		
+		[flares_default10_half2]
+        blend_down_time                  = 60                               ;(сек)
+        blend_rise_time                  = 10                               ;(сек)
+        blend_time                       = 10                               ;(сек)
+        flare_opacity                    = 0.700, 0.700, 0.700, 0.700, 0.700, 0.700, 0.700, 0.700, 0.700, 0.700, 0.700
+        flare_position                   = -0.800, 0.650, -0.650, -0.550, -0.450, -0.350, -0.250, -0.150, 0.150, 0.800, 1.000
+        flare_radius                     = 0.700, 0.200, 0.4, 0.4, 0.3, 0.4, 0.3, 0.3, 0.2, 0.2
+        flare_shader                     = effects\flare
+        flare_textures                   = sun_effects\moon_flare_2.tga, sun_effects\glare_07.tga, sun_effects\glare_08.tga, sun_effects\light_03.tga, sun_effects\moon_flare_2.tga
+        flares                           = on
+        gradient                         = on
+        gradient_opacity         = 0.45
+        gradient_radius          = 2.8
+        gradient_shader                  = effects\sun
+        gradient_texture                 = sun_effects\lens9.tga
+        sun                              = on
+        sun_ignore_color                 = true
+        sun_radius                       = 0.25
+        sun_shader                       = effects\sun
+        sun_texture                      = fx\fx_sun_half.tga
+		
 		[default10]
         blend_down_time                  = 60                               ;(сек)
         blend_rise_time                  = 10                               ;(сек)
