@@ -1,4 +1,4 @@
-# IX-Ray Paradox Weather Unit
+# Paradox Weather Unit (ver. 2.0) for IX-Ray Platform
 
 ## Overview
 
@@ -26,7 +26,7 @@ Link to the current __IX-Ray__ [release](https://github.com/ixray-team/ixray-1.6
 
 ## Contributors
 
-- `OSWALD`
+- `OSWALD-bit`
 - `Drombeys`
 
 ## License
@@ -59,7 +59,7 @@ Link to the current __IX-Ray__ [release](https://github.com/ixray-team/ixray-1.6
 
 ## Контрибьюторы
 
-- `OSWALD`
+- `OSWALD-bit`
 - `Drombeys`
 
 ## Лицензия
