@@ -48,7 +48,7 @@ function CSurgeManager:initialize()
 	self.ui_disabled 			= false
 	self.blowout_sound 			= false
 
-	self.surge_time = 208
+	self.surge_time = 206
 	self.inited_time = game.CTime()
 	self.last_surge_time = game.get_game_time()
 	self._delta = math.random(START_MIN_SURGE_TIME, START_MAX_SURGE_TIME) -- global minutes, время между выбросами
@@ -259,8 +259,15 @@ function CSurgeManager:update()
 				level.add_pp_effector("paradox_beg.ppe", surge_shock_pp_eff, true)
 --				level.set_pp_effector_factor(surge_shock_pp_eff, 0, 10)
 				self.effector_set = true
-			elseif(diff_sec>=35) and not(self.blowout_sound)then
+			elseif(diff_sec>=65) and not(self.effector_set) then
+                xr_sound.set_sound_play(db.actor:id(), "blowout_wave_2")
+				level.add_pp_effector("paradox_beg.ppe", surge_shock_pp_eff, true)
+				level.add_cam_effector("camera_effects\\hit_back.anm")
+				self.effector_set = true
+			elseif(diff_sec>=25) and not(self.blowout_sound)then
 				xr_sound.set_sound_play(db.actor:id(), "blowout_begin")
+				level.add_pp_effector("paradox_beg.ppe", surge_shock_pp_eff, true)
+				level.add_cam_effector("camera_effects\\head_shot.anm")
 				xr_sound.play_sound_looped(db.actor:id(), "blowout_rumble")
 				xr_sound.set_volume_sound_looped(db.actor:id(), "blowout_rumble", 0.25)
 				self.blowout_sound = true
