@@ -2,6 +2,11 @@
 
 Full changelog
 
+## Release 2.2 (December 2025)
+
+- Disabled forced depth of field (@Drombeys)
+- Fixed cloud movement parameters (@Drombeys)
+
 ## Release 2.1 (December 2025)
 
 - Add new particles, SCOPE based (@OSWALD-bit)
@@ -23,6 +28,11 @@ Full changelog
 ---
 
 Полный список изменений
+
+## Релиз 2.2 (Декабрь 2025)
+
+- Исправлено принудительное включение DoF (@Drombeys)
+- Исправлены битые параметры движения облаков (@Drombeys)
 
 ## Релиз 2.1 (Декабрь 2025)
 

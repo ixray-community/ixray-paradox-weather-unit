@@ -1,4 +1,4 @@
-# Paradox Weather Unit (ver. 2.1) for IX-Ray Platform
+# Paradox Weather Unit (ver. 2.2) for IX-Ray Platform
 
 ## Overview
 
