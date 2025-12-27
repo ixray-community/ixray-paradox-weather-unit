@@ -2,6 +2,10 @@
 
 Full changelog
 
+## Release 2.3 (December 2025)
+
+- Updated weather (@OSWALD-bit)
+
 ## Release 2.2 (December 2025)
 
 - Disabled forced depth of field (@Drombeys)
@@ -28,6 +32,10 @@ Full changelog
 ---
 
 Полный список изменений
+
+## Релиз 2.3 (Декабрь 2025)
+
+- Обновлена погода (@OSWALD-bit)
 
 ## Релиз 2.2 (Декабрь 2025)
 
