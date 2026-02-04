@@ -2,9 +2,10 @@
 
 Full changelog
 
-## Release 2.3 (December 2025)
+## Release 2.3 (January 2026)
 
 - Updated weather (@OSWALD-bit)
+- Moved particle and lighting parameters from sound addon to main addon (@Drombeys)
 
 ## Release 2.2 (December 2025)
 
@@ -33,9 +34,10 @@ Full changelog
 
 Полный список изменений
 
-## Релиз 2.3 (Декабрь 2025)
+## Релиз 2.3 (Январь 2026)
 
 - Обновлена погода (@OSWALD-bit)
+- Перенесены параметры партиклов и освещения из звукового аддона в основной (@Drombeys)
 
 ## Релиз 2.2 (Декабрь 2025)
 

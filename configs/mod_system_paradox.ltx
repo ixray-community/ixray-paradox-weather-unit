@@ -1,0 +1,81 @@
+![zone_burning_fuzz]
+idle_particles = 
+blowout_particles = 
+
+![campfire_base]
+light_range = 11
+light_height = 3.96
+idle_light_range = 10.0
+idle_light_range_delta = 0.45
+idle_light_anim = koster
+
+![campfire_base_noshadow]
+blowout_light = on
+light_range = 12
+light_height = 4.75
+idle_light = on
+idle_light_range = 10.0
+idle_light_anim = koster
+idle_light_height = 3.70
+
+![fireball_zone]
+idle_light_anim = koster
+
+![zone_mine_acidic]
+light_color = 0.397,1.0,0.620
+light_animation = light_random_00
+
+![zone_mine_acidic_big]
+blowout_light = on
+light_animation = light_random_00
+light_color = 0.397,1.0,0.620
+light_range = 7
+light_time = 0.35
+light_height = 0.75
+
+![zone_buzz]
+idle_light = on
+idle_light_range = 9.5
+idle_light_anim = light_random
+idle_light_height = 0.2	
+blowout_light = on
+light_animation = light_random_00
+light_color = 0.397,1.0,0.620
+light_range = 7
+light_time = 0.35
+light_height = 0.75
+
+![zone_mine_electric]
+light_color = 0.145,0.486,0.965
+
+![zone_mine_gravitational_strong]
+idle_particles = anomaly2\bold_idle
+blowout_light = off
+throw_in_impulse_alive = 500
+throw_in_atten = 1.0
+tele_height = 0.5
+
+![zone_mine_gravitational_average]
+idle_particles = zones_mine\zone_gravity_mine_idle_strong
+torn_particles = anomaly2\body_tear_00
+blowout_light = off
+light_height = 0.5
+
+![zone_mine_gravitational_weak]
+idle_particles = zones_mine\zone_gravity_mine_idle_strong
+blowout_particles = anomaly2\gravity_blast_03
+ignore_small = false
+blowout_light = off
+
+![zone_mine_thermal]
+idle_particles = static\fire_distort
+
+![zone_mine_thermal]
+light_animation = koster
+light_color = 1.0,0.267,0
+
+![zone_mine_steam]
+blowout_particles = static\zharka_static
+
+![zone_no_gravity]
+postprocess = postprocess_rad
